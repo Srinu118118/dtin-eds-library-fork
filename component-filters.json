@@ -19,7 +19,7 @@
   },
   {
     "id": "accordion-container",
-    "components": ["accordion-container-head", "accordion-container-rte"]
+    "components": ["accordion"]
   },
   {
     "id": "cards",
