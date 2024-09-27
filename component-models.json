@@ -245,6 +245,12 @@
       },
       {
         "component": "richtext",
+        "name": "accordian_rte",
+        "label": "Accordion RTE",
+        "value": ""
+      },
+      {
+        "component": "richtext",
         "name": "accordian-body",
         "label": "Accordion Body",
         "value": ""
