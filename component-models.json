@@ -206,14 +206,14 @@
     "fields": [
       {
         "component": "text",
-        "name": "accordian-head",
+        "name": "accordian_head",
         "label": "Accordion Head",
         "value": "",
         "valueType": "string"
       },
       {
         "component": "multiselect",
-        "name": "accordian-headType",
+        "name": "accordian_headType",
         "label": "Accordion Head Type",
         "value": "",
         "options": [
@@ -256,7 +256,7 @@
     "fields": [
       {
         "component": "richtext",
-        "name": "accordian-rte",
+        "name": "accordian_rte",
         "label": "Accordion RTE",
         "value": ""
       },
