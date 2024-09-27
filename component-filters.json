@@ -14,12 +14,12 @@
       "cards",
       "columns",
       "fragment",
-      "accordion"
+      "accordion-container"
     ]
   },
   {
-    "id": "accordion",
-    "components": ["accordion-head", "accordion-rte"]
+    "id": "accordion-container",
+    "components": ["accordion-container-head", "accordion-container-rte"]
   },
   {
     "id": "cards",

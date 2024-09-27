@@ -186,7 +186,7 @@
     ]
   },
   {
-    "id": "accordion",
+    "id": "accordion-container",
     "fields": [
       {
         "component": "multiselect",
@@ -202,7 +202,7 @@
     ]
   },
   {
-    "id": "accordion-head",
+    "id": "accordion-container-body",
     "fields": [
       {
         "component": "text",
@@ -248,55 +248,6 @@
         "name": "accordian_rte",
         "label": "Accordion RTE",
         "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "accordian-body",
-        "label": "Accordion Body",
-        "value": ""
-      }
-    ]
-  },
-  {
-    "id": "accordion-rte",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "accordian_rte",
-        "label": "Accordion RTE",
-        "value": ""
-      },
-      {
-        "component": "multiselect",
-        "name": "accordian-headType",
-        "label": "Accordion Head Type",
-        "value": "",
-        "options": [
-          {
-            "name": "H1",
-            "value": "h1"
-          },
-          {
-            "name": "H2",
-            "value": "h2"
-          },
-          {
-            "name": "H3",
-            "value": "h3"
-          },
-          {
-            "name": "H4",
-            "value": "h4"
-          },
-          {
-            "name": "H5",
-            "value": "h5"
-          },
-          {
-            "name": "H6",
-            "value": "h6"
-          }
-        ]
       },
       {
         "component": "richtext",
