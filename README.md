@@ -25,7 +25,7 @@ npm run lint
 1. Start AEM Proxy: `aem up` (opens your browser at `http://localhost:3000`)
 1. Open the `{repo}` directory in your favorite IDE and start coding :)
 
-## Prerequisites
+## Prerequisites 
 
 - nodejs 18.3.x or newer
 - AEM Cloud Service release 2024.8 or newer (>= `17465`)
