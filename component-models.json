@@ -135,16 +135,16 @@
     "fields": [
       {
         "component": "richtext",
-        "name": "text",
+        "name": "heading",
         "value": "",
-        "label": "Text",
+        "label": "heading",
         "valueType": "string"
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "subheading",
         "value": "",
-        "label": "Text",
+        "label": "subheading",
         "valueType": "string"
       }
     ]
