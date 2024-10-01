@@ -131,6 +131,25 @@
     ]
   },
   {
+    "id": "card-without-image",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "heading",
+        "value": "",
+        "label": "heading",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "subheading",
+        "value": "",
+        "label": "subheading",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {

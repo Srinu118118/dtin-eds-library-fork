@@ -23,7 +23,7 @@
   },
   {
     "id": "cards",
-    "components": ["card"]
+    "components": ["card","card-without-image"]
   },
   {
     "id": "columns",

@@ -113,6 +113,21 @@
           }
         },
         {
+          "title": "Card Without Image",
+          "id": "card-without-image",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block/item",
+                "template": {
+                  "name": "Card Without Image",
+                  "model": "card-without-image"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Columns",
           "id": "columns",
           "plugins": {
