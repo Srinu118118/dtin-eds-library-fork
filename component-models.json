@@ -101,11 +101,35 @@
       {
         "component": "multiselect",
         "name": "style",
-        "label": "Style",
+        "value": "",
+        "label": "Section Style",
+        "valueType": "string",
         "options": [
           {
-            "name": "Highlight",
-            "value": "highlight"
+            "name": "Image Style",
+            "children": [
+              {
+                "name": "Image Center",
+                "value": "image-center"
+              },
+              {
+                "name": "Image Full Width",
+                "value": "image-cover"
+              },
+              {
+                "name": "Image Portait",
+                "value": "image-portait"
+              },
+              {
+                "name": "Image Landscape",
+                "value": "image-landscape"
+              },
+              {
+                "name": "Image With Border Radius",
+                "value": "image-border-radius"
+              }
+
+            ]
           }
         ]
       }
