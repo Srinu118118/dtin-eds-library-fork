@@ -109,20 +109,24 @@
             "name": "Image Style",
             "children": [
               {
+                "name": "Banner",
+                "value": "banner-image"
+              },
+              {
                 "name": "Image Center",
                 "value": "image-center"
               },
               {
+                "name": "Image Right",
+                "value": "image-right"
+              },
+              {
+                "name": "Image Left",
+                "value": "image-left"
+              },
+              {
                 "name": "Image Full Width",
                 "value": "image-cover"
-              },
-              {
-                "name": "Image Portait",
-                "value": "image-portait"
-              },
-              {
-                "name": "Image Landscape",
-                "value": "image-landscape"
               },
               {
                 "name": "Image With Border Radius",
