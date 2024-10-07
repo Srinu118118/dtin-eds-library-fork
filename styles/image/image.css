@@ -1,0 +1,35 @@
+.section.banner-image .default-content-wrapper picture img {
+  width: 700px;
+}
+
+.section.image-cover .default-content-wrapper {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.section.image-cover .default-content-wrapper picture img {
+  width: 100%;
+}
+
+.section.image-center .default-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section.image-left .default-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.section.image-right .default-content-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.section.image-border-radius .default-content-wrapper picture img {
+  border-radius: 20px;
+}
