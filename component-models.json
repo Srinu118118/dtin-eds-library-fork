@@ -99,11 +99,42 @@
     "id": "section",
     "fields": [
       {
-        "component": "text",
+        "component": "multiselect",
         "name": "style",
         "value": "",
         "label": "Section Style",
-        "valueType": "string"
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Image Style",
+            "children": [
+              {
+                "name": "Banner",
+                "value": "banner-image"
+              },
+              {
+                "name": "Image Center",
+                "value": "image-center"
+              },
+              {
+                "name": "Image Right",
+                "value": "image-right"
+              },
+              {
+                "name": "Image Left",
+                "value": "image-left"
+              },
+              {
+                "name": "Image Full Width",
+                "value": "image-cover"
+              },
+              {
+                "name": "Image With Border Radius",
+                "value": "image-border-radius"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
