@@ -329,5 +329,57 @@
         "label": "Embed"
       }
     ]
+  },
+  {
+    "id": "carousel",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Carousel Style",
+        "options": [
+          {
+            "name": "Content Style",
+            "children": [
+              {
+                "name": "Hero Carousel",
+                "value": "hero-carousel"
+              },
+              {
+                "name": "One Thirds Carousel",
+                "value": "one-thirds-carousel"
+              },
+              {
+                "name": "One Half Carousel",
+                "value": "one-half-carousel"
+              }
+            ]
+          }
+        ],
+        "valueType": "string[]"
+      },
+      {
+        "component": "boolean",
+        "label": "Infinite",
+        "name": "carousel_infinite",
+        "value": "",
+        "valueType": "boolean"
+      },
+      {
+        "component": "reference",
+        "label": "Prev Icon",
+        "name": "carousel_prev",
+        "value": "",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "label": "Next Icon",
+        "name": "carousel_next",
+        "value": "",
+        "valueType": "string"
+      }
+    ]
   }
 ]

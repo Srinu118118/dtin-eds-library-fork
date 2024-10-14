@@ -15,7 +15,8 @@
       "columns",
       "fragment",
       "accordion-container",
-      "embed"
+      "embed",
+      "carousel"
     ]
   },
   {
@@ -33,5 +34,9 @@
   {
     "id": "column",
     "components": ["text", "image", "button", "title"]
+  },
+  {
+    "id": "carousel",
+    "components": ["embed", "image"]
   }
 ]
