@@ -29,14 +29,13 @@ const heroCarousel = {
     },
   },
 };
-
 const oneHalfCarousel = {
   loop: true,
   slidesPerView: 2,
   grabCursor: true,
   autoplay: {
-    delay: 5000,
-    disableOnInteraction: false,
+    // delay: 5000,
+    // disableOnInteraction: false,
   },
   navigation: {
     // nextEl: swiperButtonNext,
@@ -48,10 +47,12 @@ const oneHalfCarousel = {
   },
   breakpoints: {
     300: {
-      slidesPerView: 2,
+      slidesPerView: 1,
+      grabCursor: true,
     },
     780: {
-      slidesPerView: 2,
+      slidesPerView: 1,
+      grabCursor: true,
     },
     992: {
       slidesPerView: 2,
@@ -61,14 +62,13 @@ const oneHalfCarousel = {
     },
   },
 };
-
 const oneThirdCarousel = {
   loop: true,
   slidesPerView: 3,
   grabCursor: true,
   autoplay: {
     delay: 5000,
-    disableOnInteraction: false,
+    // disableOnInteraction: false,
   },
   navigation: {
     // nextEl: swiperButtonNext,
@@ -80,16 +80,18 @@ const oneThirdCarousel = {
   },
   breakpoints: {
     300: {
-      slidesPerView: 3,
+      slidesPerView: 1,
     },
     780: {
-      slidesPerView: 3,
+      slidesPerView: 1,
     },
     992: {
-      slidesPerView: 3,
+      slidesPerView: 1,
     },
-    1199: {
+    1025: {
       slidesPerView: 3,
+      slidesPerGroup: 3,
+      spaceBetween: 20,
     },
   },
 };

@@ -3,7 +3,7 @@
 }
 
 .swiper {
-  width: 50%;
+  /* width: 50%; */
   padding-bottom: 30px;
 }
 
@@ -24,7 +24,7 @@
 
 .swiper .swiper-slide > div > picture > img {
   width: 100%;
-  /* stylelint-disable-next-line property-no-vendor-prefix */
-  -o-object-fit: fill;
+  /* stylelint-disable-next-line declaration-block-no-duplicate-properties */
+  object-fit: fill;
      object-fit: fill;
 }

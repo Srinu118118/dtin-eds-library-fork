@@ -1,0 +1,17 @@
+@import "../../../styles/responsive";
+
+.carousel{
+    &.one-half-carousel{
+        width: 100%;
+        .swiper-wrapper{
+            justify-content: space-between;
+            column-gap: 15px;
+
+            @include mobile{
+                justify-content: unset;
+                column-gap: unset;
+            }
+        }
+        
+    }
+}
