@@ -1,0 +1,15 @@
+.carousel.one-half-carousel {
+  width: 100%;
+}
+
+.carousel.one-half-carousel .swiper-wrapper {
+  justify-content: space-between;
+       column-gap: 15px;
+}
+
+@media (width <= 767px) {
+  .carousel.one-half-carousel .swiper-wrapper {
+    justify-content: unset;
+         column-gap: unset;
+  }
+}
