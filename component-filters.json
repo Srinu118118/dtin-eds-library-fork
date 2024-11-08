@@ -39,9 +39,5 @@
   {
     "id": "carousel",
     "components": ["embed", "image"]
-  },
-  {
-    "id": "accordion",
-    "components": ["text", "accordion-item"]
   }
 ]
