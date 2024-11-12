@@ -15,14 +15,15 @@
       "columns",
       "fragment",
       "accordion-container",
+      "accordion-item",
       "embed",
-      "carousel",
-      "accordion"
+      "carousel"
+      
     ]
   },
   {
     "id": "accordion-container",
-    "components": ["accordion"]
+    "components": ["accordion-item"]
   },
   {
     "id": "cards",
