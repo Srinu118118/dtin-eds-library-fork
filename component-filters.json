@@ -14,16 +14,10 @@
       "cards",
       "columns",
       "fragment",
-      "accordion-container",
-      "accordion-item",
       "embed",
       "carousel"
       
     ]
-  },
-  {
-    "id": "accordion-container",
-    "components": ["accordion-item"]
   },
   {
     "id": "cards",
