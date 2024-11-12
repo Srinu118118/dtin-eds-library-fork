@@ -206,6 +206,41 @@
     ]
   },
   {
+    "id": "accordion",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Accordion-wrapper",
+            "value": "accordion-wrapper"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "accordion-item",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "head",
+        "value": "",
+        "label": "Head",
+        "row": true
+      },
+      {
+        "component": "richtext",
+        "name": "body",
+        "value": "",
+        "label": "Body",
+        "row": true
+      }
+    ]
+  },
+  {
     "id": "hero",
     "fields": [
       {
