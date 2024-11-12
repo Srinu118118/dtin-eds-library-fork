@@ -240,15 +240,15 @@
         "label": "Style",
         "options": [
           {
-            "name": "Highlight",
-            "value": "highlight"
+            "name": "Accordion-wrapper",
+            "value": "accordion-wrapper"
           }
         ]
       }
     ]
   },
   {
-    "id": "accordion",
+    "id": "accordion-item",
     "fields": [
       {
         "component": "text",
