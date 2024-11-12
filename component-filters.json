@@ -12,6 +12,7 @@
       "title",
       "hero",
       "cards",
+      "accordion",
       "columns",
       "fragment",
       "embed",
@@ -23,6 +24,7 @@
     "id": "cards",
     "components": ["card","card-without-image"]
   },
+  
   {
     "id": "columns",
     "components": ["column"]
@@ -34,5 +36,9 @@
   {
     "id": "carousel",
     "components": ["embed", "image"]
+  },
+  {
+    "id": "accordion",
+    "components": ["accordion-item"]
   }
 ]
