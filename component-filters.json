@@ -39,6 +39,6 @@
   },
   {
     "id": "accordion",
-    "components": ["accordion-item"]
+    "components": ["text", "accordion-item"]
   }
 ]

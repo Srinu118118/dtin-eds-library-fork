@@ -7,6 +7,9 @@
 export default function decorate(block) {
   [...block.children].forEach((row) => {
     // decorate accordion item label
+    // const isMobile = window.matchMedia('(max-width: 767px)');
+
+    // if (isMobile.matches) {
     const label = row.children[0];
     const summary = document.createElement('summary');
     summary.className = 'accordion-item-label';
@@ -19,5 +22,6 @@ export default function decorate(block) {
     details.className = 'accordion-item';
     details.append(summary, body);
     row.replaceWith(details);
+    // }
   });
 }
