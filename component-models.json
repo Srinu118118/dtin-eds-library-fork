@@ -207,19 +207,7 @@
   },
   {
     "id": "accordion",
-    "fields": [
-      {
-        "component": "multiselect",
-        "name": "classes",
-        "label": "Style",
-        "options": [
-          {
-            "name": "Accordion-wrapper",
-            "value": "accordion-wrapper"
-          }
-        ]
-      }
-    ]
+    "fields": []
   },
   {
     "id": "accordion-item",
