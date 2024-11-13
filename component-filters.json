@@ -16,8 +16,8 @@
       "columns",
       "fragment",
       "embed",
-      "carousel"
-      
+      "carousel",
+      "accordion-group"
     ]
   },
   {
@@ -39,6 +39,6 @@
   },
   {
     "id": "accordion",
-    "components": ["text", "accordion-item"]
+    "components": ["accordion"]
   }
 ]
