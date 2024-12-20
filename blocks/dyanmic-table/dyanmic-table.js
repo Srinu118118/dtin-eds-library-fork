@@ -15,20 +15,18 @@ function getLiElements(el) {
   return ul?.children;
 }
 export default function decorateTable(block) {
-  block.classList.add('code');
-  block.parentElement.classList.add('code-wrapper');
   const table = document.createElement('table');
   const div = document.createElement('div');
-  //   const thead = document.createElement('thead');
+  const thead = document.createElement('thead');
   const tbody = document.createElement('tbody');
 
   const header = !block.classList.contains('no-header');
-  // if (header) table.append(thead);
+  if (header) table.append(thead);
   table.append(tbody);
 
   [...getLiElements(block)].forEach((child, i) => {
     const row = document.createElement('tr');
-    tbody.append(row);
+    if (i) tbody.append(row); else thead.append(row);
     [...getLiElements(child)].forEach((col) => {
       const cell = buildCell(header ? i : i + 1);
       if (col.innerHTML.includes('img') && col.textContent.trim()) {
