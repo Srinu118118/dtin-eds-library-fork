@@ -322,8 +322,8 @@
             "name": "Table Content Style",
             "children": [
               {
-                "name": "Table Content",
-                "value": "Table Content"
+                "name": "No Header",
+                "value": "no-header"
               }
             ]
           }
