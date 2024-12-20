@@ -310,6 +310,36 @@
     ]
   },
   {
+    "id": "dyanmic-table",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Table Style",
+        "options": [
+          {
+            "name": "Table Content Style",
+            "children": [
+              {
+                "name": "Table Content",
+                "value": "Table Content"
+              }
+            ]
+          }
+        ],
+        "valueType": "string[]"
+      },
+      {
+        "component": "richtext",
+        "label": "Dynamic Table Content",
+        "name": "content",
+        "value": "",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "carousel",
     "fields": [
       {

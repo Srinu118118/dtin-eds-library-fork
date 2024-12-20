@@ -8,7 +8,7 @@ export function generateAccordionDOM(block) {
       // const heading = element.querySelector("h2,h3,h4,h5,h6");
       const heading = element;
       summary.append(heading || element.textContent.trim());
-    } 
+    }
   });
 
   return details;
