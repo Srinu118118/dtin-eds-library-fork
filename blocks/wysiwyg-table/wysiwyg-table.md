@@ -1,6 +1,6 @@
-### Dynamic Table Block for Universal Editor
+### WYSIWYG Table Block for Universal Editor
 
-The dynamic table block is designed specifically for the **Universal Editor** to simplify the process of creating and managing table structures. It addresses the need for flexibility in content editing without requiring constant updates to the component model.
+The WYSIWYG(What You See Is What You Get) table block is designed specifically for the **Universal Editor** to simplify the process of creating and managing table structures. It addresses the need for flexibility in content editing without requiring constant updates to the component model.
 
 #### Key Features
 - **Dynamic Column Addition**: In the Universal Editor, adding a new column traditionally requires modifications to the component model. With this block, columns can be dynamically added based on the `<li>` items authored in the block.

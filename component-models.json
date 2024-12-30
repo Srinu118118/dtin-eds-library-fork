@@ -310,7 +310,7 @@
     ]
   },
   {
-    "id": "dyanmic-table",
+    "id": "wysiwyg-table",
     "fields": [
       {
         "component": "multiselect",
@@ -332,7 +332,7 @@
       },
       {
         "component": "richtext",
-        "label": "Dynamic Table Content",
+        "label": "WYSIWYG Table Content",
         "name": "content",
         "value": "",
         "valueType": "string"
