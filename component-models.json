@@ -104,6 +104,12 @@
             "label": "Link Type",
             "name": "linkType",
             "valueType": "string"
+          },
+          {
+            "component": "text",
+            "label": "Link Rel",
+            "name": "linkRel",
+            "valueType": "string"
           }
         ]
       }
