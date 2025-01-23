@@ -277,6 +277,24 @@
           }
         }
       ]
+    },
+    {
+      "title": "DEPT Component Group",
+      "id": "default",
+      "components": [
+        {
+          "title": "DEPT image",
+          "id": "deptimage",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/image/v1/image",
+                "template": {}
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

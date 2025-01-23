@@ -16,6 +16,87 @@
     ]
   },
   {
+    "id": "customimage",
+    "fields": [
+      {
+        "component": "container",
+        "label": "Desktop Image",
+        "name": "desktop",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "reference",
+            "name": "image",
+            "label": "Image"
+          },
+          {
+            "component": "text",
+            "name": "imageAlt",
+            "label": "Alt Text"
+          },
+          {
+            "component": "text",
+            "name": "imageTitle",
+            "label": "Image Title"
+          },
+          {
+            "component": "text",
+            "name": "imageRel",
+            "label": "Image REL"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "label": "Mobile Image",
+        "name": "mobile",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "reference",
+            "name": "image",
+            "label": "Image"
+          },
+          {
+            "component": "text",
+            "name": "imageAlt",
+            "label": "Alt Text"
+          },
+          {
+            "component": "text",
+            "name": "imageTitle",
+            "label": "Image Title"
+          },
+          {
+            "component": "text",
+            "name": "imageRel",
+            "label": "Image REL"
+          }
+        ]
+      },
+      {
+        "component": "container",
+        "label": "Link",
+        "name": "link",
+        "valueType": "string",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "aem-content",
+            "label": "Link URL",
+            "name": "link",
+            "valueType": "string"
+          },
+          {
+            "component": "boolean",
+            "label": "Open in Target Folder",
+            "name": "linkTarget"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "title",
     "fields": [
       {
