@@ -22,26 +22,26 @@
         "component": "container",
         "label": "Desktop Image",
         "name": "desktop",
-        "collapsible": true,
+        "collapsible": false,
         "fields": [
           {
             "component": "reference",
-            "name": "desktopImage",
+            "name": "desktopimage",
             "label": "Image"
           },
           {
             "component": "text",
-            "name": "desktopImageAlt",
+            "name": "desktopimageAlt",
             "label": "Alt Text"
           },
           {
             "component": "text",
-            "name": "desktopImageTitle",
+            "name": "desktopimageTitle",
             "label": "Image Title"
           },
           {
             "component": "text",
-            "name": "desktopImageRel",
+            "name": "desktopimageRel",
             "label": "Image REL"
           }
         ]
@@ -54,22 +54,22 @@
         "fields": [
           {
             "component": "reference",
-            "name": "mobileImage",
+            "name": "mobileimage",
             "label": "Image"
           },
           {
             "component": "text",
-            "name": "mobileImageAlt",
+            "name": "mobileimageAlt",
             "label": "Alt Text"
           },
           {
             "component": "text",
-            "name": "mobileImageTitle",
+            "name": "mobileimageTitle",
             "label": "Image Title"
           },
           {
             "component": "text",
-            "name": "mobileImageRel",
+            "name": "mobileimageRel",
             "label": "Image REL"
           }
         ]
