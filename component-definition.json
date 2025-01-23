@@ -284,7 +284,7 @@
       "components": [
         {
           "title": "DEPT image",
-          "id": "deptimage",
+          "id": "customimage",
           "plugins": {
             "xwalk": {
               "page": {
