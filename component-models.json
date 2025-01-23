@@ -88,9 +88,22 @@
             "valueType": "string"
           },
           {
-            "component": "boolean",
-            "label": "Open in Target Folder",
-            "name": "linkTarget"
+            "component": "text",
+            "label": "Link Text",
+            "name": "linkText",
+            "valueType": "string"
+          },
+          {
+            "component": "text",
+            "label": "Link Title",
+            "name": "linkTitle",
+            "valueType": "string"
+          },
+          {
+            "component": "text",
+            "label": "Link Type",
+            "name": "linkType",
+            "valueType": "string"
           }
         ]
       }
