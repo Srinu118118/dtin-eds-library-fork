@@ -26,22 +26,22 @@
         "fields": [
           {
             "component": "reference",
-            "name": "image",
+            "name": "desktopImage",
             "label": "Image"
           },
           {
             "component": "text",
-            "name": "imageAlt",
+            "name": "desktopImageAlt",
             "label": "Alt Text"
           },
           {
             "component": "text",
-            "name": "imageTitle",
+            "name": "desktopImageTitle",
             "label": "Image Title"
           },
           {
             "component": "text",
-            "name": "imageRel",
+            "name": "desktopImageRel",
             "label": "Image REL"
           }
         ]
@@ -54,22 +54,22 @@
         "fields": [
           {
             "component": "reference",
-            "name": "image",
+            "name": "mobileImage",
             "label": "Image"
           },
           {
             "component": "text",
-            "name": "imageAlt",
+            "name": "mobileImageAlt",
             "label": "Alt Text"
           },
           {
             "component": "text",
-            "name": "imageTitle",
+            "name": "mobileImageTitle",
             "label": "Image Title"
           },
           {
             "component": "text",
-            "name": "imageRel",
+            "name": "mobileImageRel",
             "label": "Image REL"
           }
         ]
@@ -77,7 +77,7 @@
       {
         "component": "container",
         "label": "Link",
-        "name": "link",
+        "name": "others",
         "valueType": "string",
         "collapsible": true,
         "fields": [
