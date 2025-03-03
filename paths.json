@@ -1,6 +1,6 @@
 {
   "mappings": [
-    "/content/dtin-eds-library/:/",
-    "/content/dtin-eds-library/configuration:/.helix/config.json"
+    "/content/dtin-eds-library-fork/:/",
+    "/content/dtin-eds-library-fork/configuration:/.helix/config.json"
   ]
 }
