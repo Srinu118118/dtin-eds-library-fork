@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p48457-e1275402.adobeaemcloud.com/bin/franklin.delivery/Tekno-Point/dtin-eds-library/main"
+    url: "https://author-p92368-e968987.adobeaemcloud.com/bin/franklin.delivery/Srinu118118/dtin-eds-library-fork/main"
     type: "markup"
     suffix: ".html"
